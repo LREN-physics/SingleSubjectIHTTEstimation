@@ -7,9 +7,9 @@ This repository is related to the scientific article:
 Single-subject EEG measurement of  interhemispheric transfer time for the in-vivo estimation of axonal morphology  
 Rita Oliveira, Marzia De Lucia, Antoine Lutti
 
-In our previous work, we used data collected in-vivo in humans to estimate microscopic morphologic features of the white matter tracts.
+In our previous work, we used data collected in-vivo in humans to estimate microscopic morphologic features of the white matter tracts:  
 *Oliveira, R., Pelentritou, A., Di Domenicantonio, G., De Lucia, M., and Lutti, A. (2022). In vivo Estimation of Axonal Morphology From Magnetic Resonance Imaging and Electroencephalography Data. Front. Neurosci. 16, 1–18. doi: 10.3389/fnins.2022.874023.*  
-The analysis code to estimate the interhemispheric transfer time (IHTT) for a group of participants and consequently, the axonal radius distribution, P(r) and the g-ratio dependence on the radius, g(r) can be found here: 
+The analysis code to estimate the interhemispheric transfer time (IHTT) for a group of participants and the axonal radius distribution, P(r) and the g-ratio dependence on the radius, g(r) can be found here: 
 https://github.com/rita-o/AxonalMorphology
 
 In the current repository, we focus on extending the previous approach to estimate IHTT for each subject individually. We calculate IHTT in 3 ways:  
