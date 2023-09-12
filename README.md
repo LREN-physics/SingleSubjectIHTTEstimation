@@ -5,7 +5,9 @@ Estimation of Interhemispheric Transfer Time (IHTT) from EEG data for each subje
 
 This repository is related to the scientific article:
 Single-subject EEG measurement of  interhemispheric transfer time for the in-vivo estimation of axonal morphology  
-Rita Oliveira, Marzia De Lucia, Antoine Lutti
+Rita Oliveira, Marzia De Lucia, Antoine Lutti  
+https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.26420
+
 
 In our previous work, we used data collected in-vivo in humans to estimate microscopic morphologic features of the white matter tracts:  
 *Oliveira, R., Pelentritou, A., Di Domenicantonio, G., De Lucia, M., and Lutti, A. (2022). In vivo Estimation of Axonal Morphology From Magnetic Resonance Imaging and Electroencephalography Data. Front. Neurosci. 16, 1–18. doi: 10.3389/fnins.2022.874023.*  
@@ -44,7 +46,7 @@ The Signal Processing toolbox from Matlab is also necessary to use the function 
 
 ## Input data:
 
-The data necessary to run this analysis can be found in an online repository and is composed of:
+The data necessary to run this analysis is composed of:
 
 - Stats_Source_CondNameVF_Occipital_LeftBrainOccipital.mat - Result of the cluster permutation for the left brain cortex for the CondNameVF, CondName being Left or Right visual stimulation (Fieldtrip stat structure)  
 - Stats_Source_CondNameVF_Occipital_RightBrainOccipital.mat - Result of the cluster permutation for the right brain cortex for the CondNameVF, CondName being Left or -  Right visual stimulation (Fieldtrip stat structure)  
@@ -52,6 +54,8 @@ The data necessary to run this analysis can be found in an online repository and
 - CD_CondNameVisualField_RightBrainOccipital.mat - Current source densities (pA.m) of each brain vertice, trial, and time point for the right brain occipital cortex [#trials x #vertices x #timepoints]  
 - time_vec.mat - Time vector associated with the timecourses [1 x #timepoints]  
 - Occipital_vertices.mat - Structure containing the vertices of the brain mesh of the region of interest. Occipital_vertices.Vertices [1 x #vertices]  
+
+The user can find example data [here](https://doi.org/10.5281/zenodo.7446009).
 
 ## Output data:
 Structure containing IHTT estimated in the 3 ways described above and corresponding latencies of maximal activity in each hemisphere.
